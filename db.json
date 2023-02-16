@@ -1,52 +1,19 @@
 {
-    "users": [
-      {
-        "username": "vivek",
-        "avatar": "https://avatars.githubusercontent.com/u/98386705?v=4",
-        "email": "vivekjawale41@gmail.com",
-        "password": "1234",
-        "id": 1
-      },
-      {
-        "username": "vivek",
-        "avatar": "",
-        "email": "vivek@gmail.com",
-        "password": "",
-        "id": 2
-      },
-      {
-        "username": "vivek",
-        "avatar": "",
-        "email": "vivek@gmail.com",
-        "password": "",
-        "id": 3
-      },
-      {
-        "username": "Vivek jawale",
-        "avatar": "https://avatars.githubusercontent.com/u/98386705?v=4",
-        "email": "vivekjawale98@gmail.com",
-        "password": "1234",
-        "id": 4
-      },
-      {
-        "username": "Vivek jawale",
-        "avatar": "https://avatars.githubusercontent.com/u/98386705?v=4",
-        "email": "vivewk@gmail.com",
-        "password": "12345",
-        "id": 5
-      }
-    ],
-    "blogs": [
-      {
-        "id" : 1,
-        "username": "coreyschafer",
-        "title": "Be Present",
-        "content": "Turning away from the ledge, he started slowly down the mountain, deciding that he would, that very night, satisfy his curiosity about the man-house. In the meantime, he would go down into the canyon and get a cool drink, after which he would visit some berry patches just over the ridge, and explore among the foothills a bit before his nap-time, which always came just after the sun had walked past the middle of the sky. At that period of the day the sun’s warm rays seemed to cast a sleepy spell over the silent mountainside, so all of the animals, with one accord, had decided it should be the hour for their mid-day sleep.",
-        "category" : "Entertainment",
-        "date" : "2017-06-01",
-        "likes" : 24,
-        "comments":[]
-      }
-    
-    ]
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
   }
+}
